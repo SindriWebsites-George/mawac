@@ -41,7 +41,7 @@ it could potentially grow indefinetly if the article tag is not closed.
 
 .cardContent {
     font-weight: normal;
-    font-size: 12px;
+    font-size: 25px;
     color: black;
 }
 
