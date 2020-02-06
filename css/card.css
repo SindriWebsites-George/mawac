@@ -13,7 +13,8 @@ it could potentially grow indefinetly if the article tag is not closed.
 }
 
 .card {
-    border-radius: 14px;
+    /* Border radius is commented out specificly for mawac */
+    /* border-radius: 14px; */
     /* Background set to a dark color for affect visibilty, can be changed */
     background-color: white;
     width: 60%;
