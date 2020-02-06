@@ -1,0 +1,72 @@
+/**
+The card is designed to be able to grow as needed for the content inside, meaning that
+it could potentially grow indefinetly if the article tag is not closed. 
+**/
+
+
+/* For screen sizes similar to that of the iPhone 5s */
+
+.cardHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 14px;
+    /* Background set to a dark color for affect visibilty, can be changed */
+    background-color: white;
+    width: 60%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    /* padding-bottom: .5em;
+    padding-top: .5em; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    /* Added to give breathing room on the left side for mobile*/
+    margin-left: 2em;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    /* Adds a horizontal line without having to constantly typing <hr>*/
+    border-bottom: 1px solid gray;
+}
+
+.cardContent {
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+}
+
+
+/* For Screen sizes similar to iPhone 6+ */
+
+@media only screen and (min-width: 400px) {
+    .card {
+        margin-left: 2.5em;
+    }
+}
+
+
+/* For Screen Sizes similar to iPad's */
+
+@media only screen and (min-width: 768px) {
+    .cardHolder {
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 45%;
+        justify-content: space-evenly;
+    }
+    .card {
+        width: 20%;
+        margin-bottom: 2em;
+        margin-left: 1em;
+    }
+}
