@@ -19,6 +19,11 @@ body {
     background-color: var(--main-color);
 }
 
+#logo {
+    width: 9em;
+    height: 3.5em;
+}
+
 #nav--links {
     margin: .5em;
 }
@@ -39,4 +44,9 @@ body {
 
 #nav--socialMedia {
     flex-direction: column;
+}
+
+#mawacText {
+    margin: 1em;
+    width: 80%;
 }
