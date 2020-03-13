@@ -1,1 +1,42 @@
-/* Start */
+:root {
+    --main-color: #DCDCDC;
+    --alt-main-color: #FFFAFA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    background-color: var(--alt-main-color);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+#nav--links {
+    margin: .5em;
+}
+
+.navItem {
+    justify-content: space-evenly;
+    padding: 6px;
+    font-size: 22px;
+    color: black;
+}
+
+.navItem:hover {
+    font-weight: bold;
+}
+
+
+/* This is hidden currently so I can design the rest of the the nav bar. */
+
+#nav--socialMedia {
+    flex-direction: column;
+}

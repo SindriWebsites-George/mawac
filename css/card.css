@@ -6,6 +6,10 @@ it could potentially grow indefinetly if the article tag is not closed.
 
 /* For screen sizes similar to that of the iPhone 5s */
 
+:root {
+    --alt-main-color: #FFFAFA;
+}
+
 .cardHolder {
     display: flex;
     flex-direction: column;
@@ -16,7 +20,7 @@ it could potentially grow indefinetly if the article tag is not closed.
     /* Border radius is commented out specificly for mawac */
     /* border-radius: 14px; */
     /* Background set to a dark color for affect visibilty, can be changed */
-    background-color: white;
+    background-color: var(--alt-main-color);
     width: 60%;
     padding-left: 1.5em;
     padding-right: 1.5em;
