@@ -46,7 +46,35 @@ body {
     flex-direction: column;
 }
 
+#mawacInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 2;
+    margin-left: 6em;
+}
+
 #mawacText {
-    margin: 1em;
-    width: 80%;
+    width: 76.5%;
+}
+
+#slideShow {
+    margin-top: 1em;
+    margin-left: 1em;
+    width: 83.5%;
+    height: 150px;
+}
+
+#rowOne {
+    display: flex;
+}
+
+#quickLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowTwo {
+    display: flex;
+    flex-direction: row;
 }

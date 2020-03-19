@@ -8,6 +8,8 @@
     <title> MAWAC | HOME </title>
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/favicon_style.css">
 </head>
 
 <body>
@@ -31,54 +33,57 @@
         <!-- The social media will be in a 2x2 square in the top right of the page. -->
         <div id="nav--socialMedia">
             <div class="nav--socialMedia--topRow">
-                <a href="#"><img src="#" alt="Facebook Link" class="navSocialMedia" id="Facebook"></a>
-                <a href="#"><img src="#" alt="LinkedIn Link" class="navSocialMedia " id="LinkedIn"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-linkedin"></a>
             </div>
             <div class="nav--socialMedia--bottomRow">
-                <a href="#"><img src="#" alt="YouTube Link" class="navSocialMedia " id="YouTube"></a>
-                <a href="#"><img src="#" alt="Twitter Link" class="navSocialMedia " id="Twitter"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
             </div>
         </div>
 
     </nav>
 
     <main>
-        <!-- Start of Card Holder, MAWAC Info -->
-        <div class="cardHolder" id="mawacInfo">
-            <!-- This should work like a slideshow at some point, view past projects for code @George -->
-            <!--img src="img/Palace_Theater,_Marion.jpg" alt="Marion Palace Theatre" id="slideShow" /-->
-            <br>
-            <!-- Added another id to this card so that it can stretch longer -->
-            <article class="card" id="mawacText">
-                <p class="cardContent">
-                    MAWAC (Marion Area Workforce Acceleration Collaborative) provides an integrated opportunity for education and industry to interact to advance workforce preparedness and economic development in the Marion area.
-                </p>
-                <p class="cardContent">
-                    Priority in advancing an individual's lifelong success and independence, and in growing the per capita income, economic well-being and overall quality of life in the Marion area.
-                </p>
-            </article>
+        <!-- Row One -->
+        <div id="rowOne">
+            <!-- Start of Card Holder, MAWAC Info -->
+            <div class="cardHolder" id="mawacInfo">
+                <!-- This should work like a slideshow at some point, view past projects for code @George -->
+                <img src="img/Palace_Theater,_Marion.jpg" alt="Marion Palace Theatre" id="slideShow" />
+                <br>
+                <!-- Added another id to this card so that it can stretch longer -->
+                <article class="card" id="mawacText">
+                    <p class="cardContent">
+                        MAWAC (Marion Area Workforce Acceleration Collaborative) provides an integrated opportunity for education and industry to interact to advance workforce preparedness and economic development in the Marion area.
+                    </p>
+                    <p class="cardContent">
+                        Priority in advancing an individual's lifelong success and independence, and in growing the per capita income, economic well-being and overall quality of life in the Marion area.
+                    </p>
+                </article>
+            </div>
+            <!-- End of Card Holder, MAWAC Info-->
+
+            <!-- Start of Card Holder, Quick Links -->
+            <div class="cardHolder" id="quickLinks">
+                <!-- Start of imgContainer, About Us Quick Link-->
+                <div class="imgContainer card" id="aboutUsQuickLink">
+                    <p class="cardContent"> About Us </p>
+                </div>
+                <div class="rowTwo">
+                    <!-- Start of imgContainer, Programs Quick Link-->
+                    <div class="imgContainer card" id="programsQuickLink">
+                        <p class="cardContent"> Programs </p>
+                    </div>
+
+                    <!-- Start of imgContainer, Contact Quick Link-->
+                    <div class="imgContainer card" id="contactQuickLink">
+                        <p class="cardContent"> Contact </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Card Holder, Quick Links -->
         </div>
-        <!-- End of Card Holder, MAWAC Info-->
-
-        <!-- Start of Card Holder, Quick Links -->
-        <div class="cardHolder" id="quickLinks">
-            <!-- Start of imgContainer, About Us Quick Link-->
-            <div class="imgContainer" id="aboutUsQuickLink">
-                <p class="cardContent"> About Us </p>
-            </div>
-
-            <!-- Start of imgContainer, Programs Quick Link-->
-            <div class="imgContainer" id="programsQuickLink">
-                <p class="cardContent"> Programs </p>
-            </div>
-
-            <!-- Start of imgContainer, Contact Quick Link-->
-            <div class="imgContainer" id="contactQuickLink">
-                <p class="cardContent"> Contact </p>
-            </div>
-        </div>
-        <!-- End of Card Holder, Quick Links -->
-
         <!-- Start of Card Holder, Quick Article Info -->
         <div class="cardHolder" id="quickArticle">
             <article class="card">
